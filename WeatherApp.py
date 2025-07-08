@@ -25,8 +25,11 @@ class WeatherApp(QWidget):
         vbox.addWidget(self.city_label)
         vbox.addWidget(self.city_input)
         vbox.addWidget(self.get_weather_button)
-        vbox.addWidget(self.)
-        vbox.addWidget(self.city_label)
+        vbox.addWidget(self.temperature_label)
+        vbox.addWidget(self.emoji_label)
+        vbox.addWidget(self.description_label)
+
+        se
 
 
 
