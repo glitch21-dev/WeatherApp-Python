@@ -27,7 +27,7 @@ class WeatherApp(QWidget):
         self.setWindowTitle("Weather App")
        # self.setWindowIcon(QIcon("C://Users\Pirila\Downloads\pyqt1.jpg"))  # Optional
 
-        # Tried basic autocomplete hope it works.
+        # Tried basic autocomplete hope it works...
         city_list = ["London", "Lusaka", "Paris", "New York", "Tokyo", "Nairobi", "Cairo"]
         completer = QCompleter(city_list, self)
         completer.setCaseSensitivity(Qt.CaseInsensitive)
